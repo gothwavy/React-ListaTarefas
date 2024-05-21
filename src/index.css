@@ -26,20 +26,51 @@ div .botao {
 }
 
 h2 {
-  margin: 0;
+  margin-bottom: 24px;
   font-size: 4rem;
 }
 
-p {
+input {
+  color: #44f;
   text-align: center;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-span {
-  color: #99f;
+ul {
+  height: 400px;
+  font-weight: bolder;
+  color: #aaf;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: start;
+  flex-wrap: wrap;
+  word-break: break-all;
+}
+
+li {
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 button {
+  cursor: pointer;
   padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+li button {
+  width: 80px;
+  border: 0;
+  background: #f22;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
   margin: 10px;
   border-radius: 10px;
 }
